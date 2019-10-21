@@ -24,8 +24,8 @@ html {
   background-color: #cabdb2;
 }
 
-.link-card:hover div span {
-    background-color: #512200;
+.link-card:hover .btn {
+  background-color: #512200;
 }
 
 .link-card dl {
@@ -39,7 +39,7 @@ html {
 
 .link-card dt {
   display: inline-block;
-  width: 5em;
+  width: 6em;
 }
 
 .link-card dd {
@@ -50,12 +50,12 @@ html {
 
 .link-card h2 {
   font-family: Dosis, sans-serif;
-  margin-top: .6em;
+  margin-top: .5em;
 }
 
-div span {
+a .btn {
   display: inline-block;
-  font-family: Arial, sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
   padding: .4em .75em .5em;
   background-color: #785439;
