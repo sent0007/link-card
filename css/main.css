@@ -14,10 +14,18 @@ html {
   border: 3px solid #9a816d;
   border-radius: 3px;
   background-color: #dcd4cd;
-  color: #785439;
+  color: #512200;
   line-height: 1.5;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+.link-card:hover div span {
+    background-color: #512200;
 }
 
 .link-card dl {
@@ -34,7 +42,7 @@ html {
   width: 5em;
 }
 
-.link-card dd{
+.link-card dd {
   font-style: italic;
   display: inline-block;
   min-width: 6em;
@@ -42,6 +50,7 @@ html {
 
 .link-card h2 {
   font-family: Dosis, sans-serif;
+  margin-top: .6em;
 }
 
 div span {
