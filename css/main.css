@@ -1,11 +1,61 @@
 html {
   box-sizing: border-box;
+  background-color: #f0eee8;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-h2 {
-  font-family: "Dosis", sans-serif;
+.link-card {
+  font-family: Georgia, sans-serif;
+  display: block;
+  text-decoration: none;
+  border: 3px solid #9a816d;
+  border-radius: 3px;
+  background-color: #dcd4cd;
+  color: #785439;
+  line-height: 1.5;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.link-card dl {
+  font-size: .875rem;
+  border-top: 2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+.link-card dt {
+  display: inline-block;
+  width: 5em;
+}
+
+.link-card dd{
+  font-style: italic;
+  display: inline-block;
+  min-width: 6em;
+}
+
+.link-card h2 {
+  font-family: Dosis, sans-serif;
+}
+
+div span {
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 1.125rem;
+  padding: .4em .75em .5em;
+  background-color: #785439;
+  color: #fff;
+  margin: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
+
+div {
+  text-align: center;
 }
